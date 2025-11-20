@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local DOCX Viewer</title>
+    <style>
+        body {
+
+  font-style: normal;
+  margin: 0;
+  background: radial-gradient(circle at center, #222338, #191a21);
+  color: #fff;
+  display: flex;
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  align-items: center;
+font-weight: 100px;
+  font-family: Tahoma, sans-serif;
+font-size: 24px;
+
+
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #343774, #343b6b);
+    color: white;
+    border: none;
+    border-radius: 5px;
+     transition: all 0.3s ease;
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+    </style>
+</head>
+<body>
+    <h1>The Jaric Files.</h1>
+    <p>The jaric files, the disgusting things he's done.</p>
+    <p>The dog rapist, poop porn watcher, if you want more info please watch this full document made by his local police</p>
+
+    <button id="openLinkBtn">Download Signed Documents</button>
+
+    <script>
+        const button = document.getElementById('openLinkBtn');
+        button.addEventListener('click', () => {
+            window.open('https://gofile.io/d/yFItgD', '_blank'); // opens in a new tab
+        });
+    </script>
+</body>
+</html>
